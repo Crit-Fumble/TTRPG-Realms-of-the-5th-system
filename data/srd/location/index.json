@@ -1,0 +1,10 @@
+{
+    "environment": {
+        "name": "environment",
+        "title": "Environment",
+        "description": "Typical environments where this location can be found.",
+        "rules": ["environment"],
+        "options": "/locations/environments.json",
+        "type": "array:string"
+    }
+}

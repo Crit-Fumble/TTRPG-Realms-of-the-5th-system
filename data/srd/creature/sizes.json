@@ -1,0 +1,44 @@
+[
+    {
+        "name": "tiny",
+        "title": "Tiny",
+        "short": "T",
+        "description": "A Tiny creature is between 2 and 4 feet tall and weighs between 8 and 32 pounds.",
+        "rules": ["size"]
+    },
+    {
+        "name": "small",
+        "title": "Small",
+        "short": "S",
+        "description": "A Small creature is between 4 and 8 feet tall and weighs between 32 and 64 pounds.",
+        "rules": ["size"]
+    },
+    {
+        "name": "medium",
+        "title": "Medium",
+        "short": "M",
+        "description": "A Medium creature is between 4 and 8 feet tall and weighs between 64 and 250 pounds.",
+        "rules": ["size"]
+    },
+    {
+        "name": "large",
+        "title": "Large",
+        "short": "L",
+        "description": "A Large creature is between 8 and 16 feet tall and weighs between 250 and 500 pounds.",
+        "rules": ["size"]
+    },
+    {
+        "name": "huge",
+        "title": "Huge",
+        "short": "H",
+        "description": "A Huge creature is between 16 and 32 feet tall and weighs between 500 and 1,000 pounds.",
+        "rules": ["size"]
+    },
+    {
+        "name": "gargantuan",
+        "title": "Gargantuan",
+        "short": "G",
+        "description": "A Gargantuan creature is between 32 and 64 feet tall and weighs between 1,000 and 2,000 pounds.",
+        "rules": ["size"]
+    }
+]

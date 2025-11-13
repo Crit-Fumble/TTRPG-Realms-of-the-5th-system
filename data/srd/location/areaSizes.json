@@ -1,0 +1,37 @@
+[
+    { 
+        "name": "impassible",
+        "title": "Impassible",
+        "maxArea": 0
+    },
+    {
+        "name": "tight",
+        "title": "Tight",
+        "maxArea": 24
+    },
+    { 
+        "name": "cramped",
+        "title": "Cramped",
+        "maxArea": 100
+    },
+    { 
+        "name": "roomy",
+        "title": "Roomy",
+        "maxArea": 400
+    },
+    { 
+        "name": "vast",
+        "title": "Vast",
+        "maxArea": 1600
+    },
+    { 
+        "name": "open",
+        "title": "Open",
+        "maxArea": 2500
+    },
+    { 
+        "name": "",
+        "title": "",
+        "maxArea": 2500
+    }
+]

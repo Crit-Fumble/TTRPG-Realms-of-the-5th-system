@@ -1,0 +1,130 @@
+{
+    "name": "creature",
+    "title": "Creature",
+    "properties":[
+        {
+            "name": "level",
+            "title": "Level",
+            "short": "Lvl",
+            "rules": ["level"],
+            "type": "integer"
+        },
+        {
+            "name": "challengeRating",
+            "title": "Challenge Rating",
+            "short": "CR",
+            "rules": ["challengeRating"],
+            "type": "integer",
+            "playerProperty": false
+        },
+        {
+            "name": "class",
+            "title": "Class",
+            "rules": ["characterClass"],
+            "type": "map:integer"
+        },
+        {
+            "name": "background",
+            "title": "Background",
+            "type": "string"
+        },
+        {
+            "name": "feats",
+            "title": "Feats",
+            "type": "array:string"
+        },
+        {
+            "name": "size",
+            "title": "Size",
+            "rules": ["size"],
+            "options": "sizes.json",
+            "type": "string"
+        },
+        {
+            "name": "alignment",
+            "title": "Alignment",
+            "rules": ["alignments"],
+            "options": "/core/alignments.json",
+            "type": "string"
+        },
+        {
+            "name": "armorClass",
+            "title": "Armor Class",
+            "short": "AC",
+            "rules": ["armorClass"],
+            "type": "integer"
+        },
+        {
+            "name": "initiative",
+            "title": "Initiative",
+            "short": "Init",
+            "rules": ["initiative"],
+            "type": "integer"
+        },
+        {
+            "name": "hitPoints",
+            "title": "Hit Points",
+            "short": "HP",
+            "rules": ["hitPoints"],
+            "type": "integer,"
+        },
+        {
+            "name": "speed",
+            "title": "Speed",
+            "rules": ["speed"],
+            "type": "map:integer"
+        },
+        {
+            "name": "abilities",
+            "title": "Abilities",
+            "rules": ["abilities"],
+            "options": "/core/abilities.json",
+            "type": "map:integer"
+        },
+        {
+            "name": "skills",
+            "title": "Skills",
+            "rules": ["skills"],
+            "options": "/core/skills.json",
+            "type": "map:integer"
+        },
+        {
+            "name": "senses",
+            "title": "Senses",
+            "rules": ["senses"],
+            "options": "/core/skills.json",
+            "type": "array:string"
+        },
+        {
+            "name": "languages",
+            "title": "Languages",
+            "rules": ["languages"],
+            "options": "/core/languages.json",
+            "type": "array:string"
+        },
+        {
+            "name": "actions",
+            "title": "Actions",
+            "rules": ["actions"],
+            "options": "/actions.json",
+            "type": "array:object"
+        },
+        {
+            "name": "habitat",
+            "title": "Habitat",
+            "description": "Typical environments where this creature can be found.",
+            "rules": ["environment"],
+            "type": "array:string"
+        },
+        {
+            "name": "treasure",
+            "title": "Treasure",
+            "type": "array:string"
+        },
+        {
+            "name": "source",
+            "title": "Source",
+            "type": "array:string"
+        }
+    ]
+}

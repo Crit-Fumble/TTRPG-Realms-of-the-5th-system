@@ -1,0 +1,20 @@
+{
+    "name": "cfgCore5e",
+    "title": "CFG 5e Core Rules Expansion",
+    "sizes": [
+        {
+            "name": "Diminutive",
+            "title": "Diminutive",
+            "short": "D",
+            "description": "A Diminutive creature is between 1 and 2 feet tall and weighs between 1 and 8 pounds.",
+            "rules": ["size"]
+        },
+        {
+            "name": "Colossal",
+            "title": "Colossal",
+            "short": "C",
+            "description": "A Colossal creature is over 32 feet tall and weighs over 2,000 pounds.",
+            "rules": ["size"]
+        }
+    ]
+}

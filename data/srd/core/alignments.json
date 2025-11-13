@@ -1,0 +1,11 @@
+[
+    { "name": "lawfulGood", "short": "LG", "title": "Lawful Good", "rules": ["alignment"] },
+    { "name": "neutralGood", "short": "NG", "title": "Neutral Good", "rules": ["alignment"] },
+    { "name": "chaoticGood", "short": "CG", "title": "Chaotic Good", "rules": ["alignment"] },
+    { "name": "lawfulNeutral", "short": "LN", "title": "Lawful Neutral", "rules": ["alignment"] },
+    { "name": "trueNeutral", "short": "N", "title": "True Neutral", "rules": ["alignment"] },
+    { "name": "chaoticNeutral", "short": "CN", "title": "Chaotic Neutral", "rules": ["alignment"] },
+    { "name": "lawfulEvil", "short": "LE", "title": "Lawful Evil", "rules": ["alignment"] },
+    { "name": "neutralEvil", "short": "NE", "title": "Neutral Evil", "rules": ["alignment"] },
+    { "name": "chaoticEvil", "short": "CE", "title": "Chaotic Evil", "rules": ["alignment"] }
+]

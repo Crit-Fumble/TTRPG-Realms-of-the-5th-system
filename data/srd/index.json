@@ -1,0 +1,88 @@
+{
+    "name": "core",
+    "title": "5e Core Rules",
+    "description": "The core rules for the 5th Edition System , based on the System Reference Document (SRD 5.2.1).",
+    "data": [
+    {
+        "name": "core",
+        "title": "Core Rules",
+        "file": "rules.json"
+    },
+    {
+        "name": "abilities",
+        "title": "Abilities",
+        "rules": ["abilityScore"],
+        "file": "abilities.json"
+    },
+    {
+        "name": "sizes",
+        "title": "Sizes",
+        "rules": ["size"],
+        "file": "sizes.json"
+    },
+    {
+        "name": "speeds",
+        "title": "Speeds",
+        "rules": ["speed"],
+        "types": [
+            {
+                "name": "walk",
+                "title": "Speed",
+                "description": "Base walking speed",
+                "rules": ["speed"]
+            },
+            {
+                "name": "burrow",
+                "title": "Burrowing Speed",
+                "description": "Speed while burrowing",
+                "rules": ["burrowingSpeed"]
+            },
+            {
+                "name": "climb",
+                "title": "Climbing Speed",
+                "description": "Speed while climbing",
+                "rules": ["climbingSpeed"]
+            },
+            {
+                "name": "fly",
+                "title": "Flying Speed",
+                "description": "Speed while flying",
+                "rules": ["flyingSpeed"]
+            },
+            {
+                "name": "swim",
+                "title": "Swimming Speed",
+                "description": "Speed while swimming",
+                "rules": ["swimmingSpeed"]
+            }
+        ]
+    },
+    {
+        "name": "creatures",
+        "title": "Creatures",
+        "rules": ["creature"],
+        "types": [
+            {
+                "file": "creatures/creatureTypes/humanoid.json"
+            },
+            {
+                "file": "creatures/creatureTypes/dragon.json"
+            }
+        ],
+        "file": "creatures/index.json"
+    },
+    {
+        "name": "objects",
+        "title": "Objects",
+        "rules": ["object"],
+        "file": "objects/objects.json",
+        "types": [
+            {
+                "file": "coins.json"
+            },
+            {
+                "file": "adventuring-gear.json"
+            }
+        ]
+    }
+]}

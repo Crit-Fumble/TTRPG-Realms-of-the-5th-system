@@ -1,0 +1,16 @@
+{
+    "name": "cfg",
+    "title": "CFG 5e",
+    "core": {
+        "file": "core/index.json"
+    },
+    "creatures": {
+        "file": "creatures/index.json"
+    },
+    "locations": {
+        "file": "locations/index.json"
+    },
+    "objects": {
+        "file": "objects/index.json"
+    }
+}

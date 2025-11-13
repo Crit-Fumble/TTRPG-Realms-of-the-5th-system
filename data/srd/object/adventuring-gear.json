@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Acid",
+        "description": "",
+        "utilize": "Ranged Attack",
+        "targets": [
+            "creature",
+            "object"
+        ],
+        "range": "20 feet",
+        "effect": "Splash",
+        "abilityScore": "Dex",
+        "dc": 8,
+        "savingThrow": "Dex",
+        "damageType": "acid",
+        "damage": "2d6",
+        "rules": ["Damage Roll", "Saving Throw", "Damage Type"],
+        "source": "SRD 5.2.1",
+        "weight": 1.0,
+        "cost": 25
+    }
+]

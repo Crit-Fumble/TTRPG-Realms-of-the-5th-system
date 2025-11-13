@@ -1,0 +1,30 @@
+[
+    {
+        "name": "location",
+        "title": "50 feet",
+        "grid": "grid",
+        "unit": "ft",
+        "size": 50
+    },
+    {
+        "name": "district",
+        "title": "50 feet",
+        "grid": "hex",
+        "unit": "ft",
+        "size": 50
+    },
+    {
+        "name": "city",
+        "title": "500 feet",
+        "grid": "hex",
+        "unit": "ft",
+        "size": 500
+    },
+    {
+        "name": "region",
+        "title": "500 feet",
+        "grid": "hex",
+        "unit": "ft",
+        "size": 500
+    }
+]

@@ -1,0 +1,56 @@
+[
+    {
+        "name": "strength",
+        "title": "Strength",
+        "short": "Str",
+        "description": "Physical might",
+        "source": "SRD 5.2.1",
+        "rules": ["abilityScore"],
+        "type": "abilities"
+    },
+    {
+        "name": "dexterity",
+        "title": "Dexterity",
+        "short": "Dex",
+        "description": "Agility, reflexes, and balance",
+        "source": "SRD 5.2.1",
+        "rules": ["abilityScore"],
+        "type": "abilities"
+    },
+    {
+        "name": "constitution",
+        "title": "Constitution",
+        "short": "Con",
+        "description": "Health and stamina",
+        "source": "SRD 5.2.1",
+        "rules": ["abilityScore"],
+        "type": "abilities"
+    },
+    {
+        "name": "intelligence",
+        "title": "Intelligence",
+        "short": "Int",
+        "description": "Reasoning and memory",
+        "source": "SRD 5.2.1",
+        "rules": ["abilityScore"],
+        "type": "abilities"
+    },
+    {
+        "name": "wisdom",
+        "title": "Wisdom",
+        "short": "Wis",
+        "description": "Perceptiveness and mental fortitude",
+        "source": "SRD 5.2.1",
+        "rules": ["abilityScore"],
+        "type": "abilities"
+    },
+    {
+        "name": "charisma",
+        "title": "Charisma",
+        "short": "Cha",
+        "description": "Confidence, poise, and charm",
+        "source": "SRD 5.2.1",
+        "rules": ["abilityScore"],
+        "type": "abilities"
+    }
+]

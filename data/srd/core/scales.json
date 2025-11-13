@@ -1,0 +1,45 @@
+[
+    {
+        "name": "base",
+        "title": "1 foot",
+        "grid": "none",
+        "unit": "ft",
+        "size": 1
+    },
+    {
+        "name": "battle",
+        "title": "5 feet",
+        "grid": "square",
+        "unit": "ft",
+        "size": 5,
+        "ratio": 60
+    },
+    {
+        "name": "dungeon",
+        "title": "10 feet",
+        "grid": "square",
+        "unit": "ft",
+        "size": 10
+    },
+    {
+        "name": "province",
+        "title": "1 mile",
+        "grid": "hex",
+        "unit": "mi",
+        "size": 1
+    },
+    {
+        "name": "kingdom",
+        "title": "6 miles",
+        "grid": "hex",
+        "unit": "mi",
+        "size": 6
+    },
+    {
+        "name": "continent",
+        "title": "60 miles",
+        "grid": "hex",
+        "unit": "mi",
+        "size": 60
+    }
+]

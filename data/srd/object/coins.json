@@ -1,0 +1,27 @@
+[
+    {
+        "title": "Platinum Piece",
+        "short": "PP",
+        "value": 10.0
+    },
+    {
+        "title": "Gold Piece",
+        "short": "GP",
+        "value": 1.0
+    },
+    {
+        "title": "Electrum Piece",
+        "short": "EP",
+        "value": 0.5
+    },
+    {
+        "title": "Silver Piece",
+        "short": "SP",
+        "value": 0.1
+    },
+    {
+        "title": "Copper Piece",
+        "short": "CP",
+        "value": 0.01
+    }
+]
